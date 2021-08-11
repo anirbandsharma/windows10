@@ -28,10 +28,11 @@
     <div class="taskbar">
 
         <div class="taskbar-left">
-            <i class="fab fa-windows"></i>
+            <i class="fab fa-windows" id="start-btn"></i>
             <div class="searchbar">
                 <input type="text" placeholder="Search the web and Windows.">
             </div>
+            <img id="files-btn" src="https://img.icons8.com/emoji/96/000000/file-folder-emoji.png"/>
         </div>
 
         <div class="taskbar-right">
@@ -48,6 +49,77 @@
         </div>
 
     </div>
+
+    <!-- start-menu -->
+    <div class="modal" id="start-menu">
+        <div class="start-menu">
+
+            <div class="actions">
+                <div class="up">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="down">
+                    <img src="images/avatar.jpeg" alt="" class="avatar">
+                    <i class="far fa-file"></i>
+                    <i class="far fa-image"></i>
+                    <i class="fas fa-cog"></i>
+                    <i class="fas fa-power-off"></i>
+                </div>
+            </div>
+
+            <div class="menu">
+
+            </div>
+
+            <div class="thumbnails">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- files -->
+    <div class="modal" id="files">
+
+        <div class="files">
+
+            <div class="toolbar">
+                <div class="part1">
+                    <img style="width: 20px; margin: 5px;" src="https://img.icons8.com/emoji/96/000000/file-folder-emoji.png"/>
+                    <p>File explorer</p>
+                </div>
+                <div class="part2">
+                    <i class="fas fa-minus"></i>
+                    <i class="far fa-square"></i>
+                    <i class="fas fa-times" id="close-files"></i>
+                </div>
+            </div>
+
+            <div class="second-bar">
+                <div class="part1">
+                    <p class="active">File</p>
+                    <p>Home</p>
+                    <p>Share</p>
+                    <p>View</p>
+                </div>
+                <div class="part2">
+                    <i class="fas fa-chevron-down"></i>
+                    <img style="width: 20px; margin: 5px;" src="https://img.icons8.com/emoji/96/000000/information-emoji.png"/>
+                </div>
+            </div>
+
+            <div class="second-bar" style="border: none;">
+                <div class="part2">
+                    <i class="fas fa-arrow-left"></i>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="js/modal.js"></script>
 </body>
 
 </html>
