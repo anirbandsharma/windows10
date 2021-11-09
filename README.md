@@ -1,4 +1,4 @@
 # windows10
-Live Demo : http://win10.great-site.net/
+Live Demo : https://anirbandsharma.github.io/windows10/
 
 Windows 10 interface clone with html and core css with javascript
